@@ -5,7 +5,6 @@
 body {
   margin: 0;
   padding: 0;
-  padding-bottom: 300px;
 }
 
 header {
@@ -262,4 +261,116 @@ article .news_resume {
   color: #5c5c5c;
   font-size: 14px;
   line-height: 20px;
+}
+
+footer {
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+}
+
+.footer_menu {
+  display: flex;
+}
+
+.fm_1,
+.fm_2,
+.fm_3 {
+  flex: 1;
+  color: #fff;
+  padding: 20px;
+}
+
+.fm_1 {
+  background-color: #39aae1;
+}
+
+.fm_2 {
+  background-color: #026fc7;
+}
+
+.fm_3 {
+  background-color: #23579d;
+}
+
+.footer_area {
+  display: flex;
+}
+
+.footer_areaitem {
+  flex: 1;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.flexColumn {
+  flex-direction: column;
+}
+
+footer .widget_title_text {
+  color: #fff;
+}
+
+.footer_copy {
+  border-top: 1px solid #2c2c2c;
+  color: #5c5c5c;
+  height: 40px;
+  line-height: 40px;
+  font-size: 12px;
+  margin-top: 30px;
+}
+
+.medicenter_clinic_resume {
+  color: #5c5c5c;
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+footer .medicenter_contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.medicenter_list {
+  color: #5c5c5c;
+  font-size: 12px;
+}
+
+.medicenter_numbers {
+  color: #5c5c5c;
+  font-size: 12px;
+}
+.medicenter_text_white {
+  color: #fff;
+  font-weight: bold;
+}
+
+.posts {
+  color: #cecece;
+  font-size: 12px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.timepost {
+  color: #0079c7;
+  font-size: 10px;
+  margin-top: 3px;
+}
+
+.twitter_posts {
+  color: #5c5c5c;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.twitter_timepost {
+  color: #0079c7;
+  font-size: 10px;
+  margin-top: 3px;
+  margin-bottom: 10px;
 }
